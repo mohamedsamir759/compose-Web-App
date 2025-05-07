@@ -19,3 +19,6 @@ compose-Web-App/
   
 📌 Architecture Overview
 [Nginx] --> [Uvicorn] --> [FastAPI App] --> [PostgreSQL + Redis]
+![image](https://github.com/user-attachments/assets/b36e9316-d509-4211-af66-36d9bfd231d1)
+
+
