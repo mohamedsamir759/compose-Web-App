@@ -1,15 +1,16 @@
 
 # Production-Ready FastAPI App with Docker
 ## Features
-- FastAPI application
-- PostgreSQL database
-- Redis caching
+- FastAPI application     
+- PostgreSQL database     
+- Redis caching          
 - Dockerized with Compose
+- Nginx reverse proxy
 - trivy-compatible for security scanning
   
 📌 Architecture Overview
-[Nginx] --> [Uvicorn] --> [FastAPI App] --> [PostgreSQL + Redis]
-
-![image](https://github.com/user-attachments/assets/b36e9316-d509-4211-af66-36d9bfd231d1)
+[client] --> [Nginx] --> [FastAPI App] --> [Redis]
+                |   ---> [PostgreSQL]
+_ use trivy for scanning my image
 
 
