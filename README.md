@@ -11,6 +11,8 @@
 📌 Architecture Overview
 [client] --> [Nginx] --> [FastAPI App] --> [Redis]
                 |   ---> [PostgreSQL]
-_ use trivy for scanning my image
+- Run Docker compose
+  docker compose up -d
 
-
+- Use trivy for scanning my image from vulnerabilities
+  trivy image image-name
